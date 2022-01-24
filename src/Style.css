@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Arvo&display=swap");
+
+body {
+  background-color: aqua;
+}
+.box {
+  width: 50vw;
+  height: 30vw;
+  background-color: hsl(218, 13%, 13%);
+  text-align: center;
+  margin-left: 22vw;
+  color: rgb(233, 236, 252);
+  border-radius: 3vw;
+  margin-top: 12vw;
+}
+.text-end h1 {
+  position: relative;
+  top: 4vw;
+  font-family: "Fjalla One", sans-serif;
+}
+.text-end h2 {
+  position: relative;
+  top: 4vw;
+  font-size: 3vw;
+}
+form input {
+  margin-top: 2.5vw;
+  font-family: "Arvo", serif;
+  font-size: 1.5;
+  font-weight: 700;
+}
+.container {
+  width: 16.8vw;
+  height: auto;
+  text-align: center;
+  margin-left: 16.6vw;
+  color: blue;
+  scroll-behavior: auto;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+  height: auto;
+}
+.container .row .col-6 {
+  height: 3.3vw;
+  margin: 0.1vw;
+}
+.col-6 button {
+  margin-top: 1.1vw;
+  height: 1.8vw;
+}
+.col-6 h3 {
+  background-color: chartreuse;
+  border-radius: 1vw;
+  width: 12.7vw;
+}
+
+@media (max-width: 700px) {
+  .box {
+    height: 60vw;
+    width: 60vw;
+  }
+  form input {
+    width: 27vw;
+  }
+  form button {
+    width: 15vw;
+  }
+  .col-6 button {
+    margin-top: 5vw;
+    height: 8vw;
+  }
+  .col-6 input {
+    width: 20vw;
+  }
+}
